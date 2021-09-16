@@ -1,0 +1,9 @@
+.container{
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: 300px;
+    min-height: 300px;
+    border: 2px solid #a802a8;
+    padding: 30px;
+    border-radius: 10px;
+}

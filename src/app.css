@@ -1,0 +1,60 @@
+.container{
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: 300px;
+    min-height: 300px;
+    border: 2px solid #a802a8;
+    padding: 80px;
+    border-radius: 10px;   
+}
+
+@media (max-width:1520px){
+    .container{
+        max-width: 80%;
+        margin: 30px auto;
+        overflow: 300px;
+        min-height: 300px;
+        border: 2px solid #a802a8;
+        padding: 50px;
+        border-radius: 10px;   
+    }
+    body {
+        background: linear-gradient(-50deg, #333, #222, #111, #000);
+        background-size: 400% 400%;
+        animation: gradient 60s ease infinite;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+
+body {
+	background: linear-gradient(-50deg, #333, #222, #111, #000);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
+	height: 100vh;
+    overflow-y: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
